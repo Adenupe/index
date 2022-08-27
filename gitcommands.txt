@@ -1,33 +1,48 @@
 ############ INITIALIZE AN EMPTY GIT REPO IN LOCAL MACHINE
 git init 
+
 ################## ADD FILES INORDER TO TRACK CHANGES
 git add 
-##########COMMIT THE FILES
+
+########## COMMIT THE FILES
 git commit -m <a message explaining the commit>
+
 ######## ADD REMOTE REPOSITORY TO COMMIT FILES
 git remote add origin <url of the remote repo>
+
 ####### PUSH FILES TO REPOSITORY
 git push -u origin <master or branchname where the file is located>
+
 ######## VERSIONS
 git --version or git -v 
+
 ######### STATUS
 git status 
+
 ###### HISTORY
 git log 
+
 ####### CONFIGURE GIT TO A GITHUB ACCOUNT
 git config --global user.email "email"
 git config --global user.username "name"
+
 ###### TO CLONE A REPOSITORY
 git clone <url of the repo to be cloned>
+
 ###### PULL
 git pull origin master
+
 ###### SWITCH BETWEEN MASTER AND BRANCHES
 git checkout <branchname or master>
+
 ###### LIST BRANCHES
 git branch 
+
 ###### CREATE NEW BRANCH 
 git branch <name>
+
 ###### TO CREATE NEW BRANCH AND SWITCH TO IT 
 git checkout -b <branchname>
+
 ####Never clone an old repository into a new repository
 ##### Fork in github allows me clone another user's repository but I cannot push any changes I make to the repository. I have to make a pull request to the owners
