@@ -5,3 +5,9 @@ head {
 h1 {
     background-color: bisque;
 }
+
+p{
+    font-size: small;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
