@@ -2,12 +2,15 @@ head {
     background-color: blueviolet;
 }
 
+body {
+    background-color: azure;
+}
 h1 {
     background-color: bisque;
 }
 
 p{
-    font-size: small;
+    font-size: medium;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
